@@ -1,12 +1,12 @@
 package database.model;
 
-public class usuario {
+public class Usuario {
 
 	private int cd_usuario;
 	private String nm_usuario;
 	private String ds_senha;
 	
-	public usuario(final int cd_usuario, final String nm_usuario, final String ds_senha) {
+	public Usuario(final int cd_usuario, final String nm_usuario, final String ds_senha) {
 	
 		this.cd_usuario = cd_usuario;
 		this.nm_usuario = nm_usuario;
